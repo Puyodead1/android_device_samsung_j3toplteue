@@ -1,4 +1,4 @@
-LOCAL_PATH := device/samsung/j4lte
+LOCAL_PATH := device/samsung/j3toplteue
 
 # Firmware
 TARGET_NO_BOOTLOADER := true

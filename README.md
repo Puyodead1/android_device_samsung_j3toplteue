@@ -1,4 +1,4 @@
-# TWRP device tree for the Samsung Galaxy J4 (SM-J400; j4lte)
+# TWRP device tree for the Samsung Galaxy J4 (SM-J400; j3toplteue)
 
 ## Build Steps
 
@@ -7,7 +7,7 @@
 # source.
 
 $ . build/envsetup.sh # Prepare build environment.
-$ lunch omni_j4lte-eng # 'Lunch' the j4lte configuration.
+$ lunch omni_j3toplteue-eng # 'Lunch' the j3toplteue configuration.
 $ mka recoveryimage # Build.
 ```
 
