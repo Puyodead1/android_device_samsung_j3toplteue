@@ -41,6 +41,8 @@ BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DT := true
 TARGET_KERNEL_CONFIG := j3toplteue_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/j3toplteue
+BOARD_CANT_BUILD_RECOVERY_FROM_BOOT_PATCH := true
+BOARD_CUSTOM_BOOTIMG_MK :=  device/samsung/j3toplteue/bootimg.mk
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
